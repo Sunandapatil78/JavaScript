@@ -27,3 +27,34 @@ console.log("Age:", age);
 
 myName = "Gajanan Kharat"; // Varibale update
 console.log("Full name: ", myName);
+
+
+
+
+
+
+
+
+
+console.log("==================step1======================");
+
+function area_of_square()
+{
+ var area = side * side;
+ var side = 34;
+ console.log("First function with no arg and no return type " );
+}
+  
+area_of_square();
+
+
+console.log("==================step1======================");                 
+
+function myname(){
+
+    var name ="myname";
+    var myname="Sunanda";
+
+    console.log("Secind function with no arg and no return type " );
+
+}
