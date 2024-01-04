@@ -49,3 +49,6 @@ console.log(sweety);
  temp= num3;
  num3=num1;
  console.log("Number3 is :",num3);
+
+
+ 
