@@ -28,3 +28,4 @@ femaleMarrigeEligibility("Female","16","jenifer")
 console.log("                                   n");
 
 femaleMarrigeEligibility("Female","27","Malinda Gates")
+    
