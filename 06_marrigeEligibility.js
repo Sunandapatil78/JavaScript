@@ -1,50 +1,16 @@
-function  MarrigeEligibility(gender,age) {
+var age,gender;
+var marriageEligiablity  = function(age,gender){
+if (age>=18 && gender=='Female' || age>=21 && gender=='Male') {
     
-    if (age>=18) {
-       console.log(`He is Eligible For Marrige`);
-  
-    } else {
-       
-      console.log( `He is Not Eligible For Marrige`);
-    }
-  }
-  MarrigeEligibility("male","17")
-  console.log("--------------------------");
-  MarrigeEligibility("male","25")
- 
-  
-  console.log("--------------------------");
-  function  MarrigeEligibility1(gender,age) {
-     
-    if (age>=18) {
-       console.log(`She is Eligible For Marrige`);
-  
-    } else {
-       
-      console.log( `She is Not Eligible For Marrige`);
-    }
-  }
-
-
-  MarrigeEligibility1("Female","28")
-  console.log("--------------------------");
-  MarrigeEligibility1("Female","16")
-console.log("-------------------------------");
-function  MarrigeEligibility2(gender,age) {
-     
-    if (age>=18) {
-       console.log(`Other is Eligible For Marrige`);
-  
-    } else {
-       
-      console.log( `Other is Not Eligible For Marrige`);
-    }
-  }
-
-
-  
-  console.log("--------------------------");
-   MarrigeEligibility2("Other","35")
-
-   console.log("--------------------------");
-  MarrigeEligibility2("Other","41")
+    console.log(`${age} ${gender} Eligible For Marrige`);
+} else {
+    console.log(`${age} ${gender} Not Eligible for Marrige`);
+}
+}
+marriageEligiablity(17,"Male");
+marriageEligiablity(25,"Male");
+marriageEligiablity(28,"Female");
+marriageEligiablity(16,"Female");
+marriageEligiablity(35,"Others");
+marriageEligiablity(41,"Others");
+marriageEligiablity(41,undefined);
