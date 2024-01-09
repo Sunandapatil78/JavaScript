@@ -48,3 +48,12 @@ console.log("-----------------------------step-8--------------------------------
             let arrayNN=["Banana" ,"orange","Apple","Mango","Water Melon"]
            let sl= arrayNN.slice(arrayNN.length-3);
            console.log(sl);
+
+
+
+           let array=[11,22,33,44,55,66]
+           for (const key in object) {
+            
+            }
+            console.log(key);
+           
