@@ -7,7 +7,18 @@ for (const index in array) {
    sum=sum+(array[index])
 }
 console.log(`sum is:${sum}`);
-let arrayNum=[11,22,45,65,77,21]
+
+// find the sum of Array example
+let array0=[12,34,55,65,77,87,89,]
+  let sum1 =0;
+for (const index in array0) {
+   console.log(array0[index]);
+   sum1=sum1+(array0[index]);
+   
+}
+console.log(`Sum of the Element is:${sum1}`);
+
+
 
 
 console.log(`Traversing an array using for of loop..`);

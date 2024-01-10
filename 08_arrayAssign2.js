@@ -38,15 +38,18 @@ for (const num of arrayA) {
 console.log("----------------step-6--------------------");
 
 let numbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
- even=[];
+ let even=[];
+
 for (const num1 of numbers) {
+ let  sum=0;
   if(num1%2==0){
-
+    console.log(`${num1}`);
+    sum=sum+(numbers[num1])
+console.log(numbers[num1]);
      even.push(num1)
-
+   
   }
-  
-  console.log(num1);
+ 
 }
 
 
@@ -67,12 +70,12 @@ var myArr = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
 
  console.log("-----------------------step-9---------------------------");
  var myArray = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
- for (const index of myArray) {
-  if(myArray%5==0){
-
+ for (const Element of myArray) {
+  if(Element%5==0){
+  
    
   }
-  console.log(myArray);
+  console.log(Element);
  }
 
 
