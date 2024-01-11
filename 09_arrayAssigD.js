@@ -52,7 +52,7 @@ let result= professor.certificate[professor.certificate.length-1]
     "Certificate in IFE course",
     "Certificate in Adv programming",]
      for (const iterator of certificate) {
-        
+        certificate.splice
      }
  
 console.log(certificate);
