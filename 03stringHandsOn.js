@@ -1,7 +1,7 @@
 
 
 function stringHandsOn(params) {
-var givenString ="  Hey you are doing good, keep it up  "
+var givenString =" Revision is the mother of  Success "
 console.log(` 1.Given String is : ${givenString}` )
 var result =(givenString.length)
 console.log(` 2.Length of string : ${result}`);

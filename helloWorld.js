@@ -58,3 +58,36 @@ function myname(){
     console.log("Secind function with no arg and no return type " );
 
 }
+
+
+function findLargest(num1, num2) {
+    if (num1 >= num2 ) {
+        return num1;
+       function findLargest(num1, num2, num3) {
+            if (num1 >= num2 && num1 >= num3) {
+                return num1;
+            } else if (num2 >= num1 && num2 >= num3) {
+                return num2;
+            } else {
+                return num3;
+            }
+        }
+         
+        // Example usage
+        const largestNumber = findLargest(10, 5, 8);
+        console.log("Largest number:", largestNumber);
+    }
+}
+ 
+// Example usage
+const largestNumber = findLargest(10, 20, );
+console.log("Largest number:", largestNumber);
+
+function largestNumber(num1,num2){
+    if (n1>=n2) {
+         return num1;
+    }
+     
+}
+let largestNumber =large(10,20)
+console.log(largestNumber);
