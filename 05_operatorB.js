@@ -12,7 +12,7 @@ console.log("The Greater Num is: ",res);
 greaterNumber()
 
 
-console.log("               ");
+console.log("     step1          ");
 function greaterNumber (){
     var a=800;
     var b= 899;
