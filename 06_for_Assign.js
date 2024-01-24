@@ -23,7 +23,7 @@ for (i=50;i>=40;i--){
 console.log("-------------------WAP Print Odd Number --------------------------");
 for ( let i=1;i<30;i=i+2){
      ABD=" ";
-     for(let j=1;j<   30;j=j+2){
+     for(let j=1;j<30;j=j+2){
         ABD=ABD+" "+j;
      }
     
